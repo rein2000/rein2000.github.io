@@ -1,0 +1,53 @@
+.container{}
+
+.padder{
+  padding: 10px;
+}
+  
+h1{
+  margin: 0 0 15px 0;
+}
+
+p{
+  margin-bottom: 10px;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color:red;
+}  
+
+.image-1440{
+  display: none;
+}
+  
+@media screen and (min-width: 480px) {
+  body {
+    background-color: yellow;
+  }
+
+}
+
+@media screen and (min-width: 600px) {
+
+  .image-1440{
+    display: block;
+  }
+
+  .image-480{
+    display: none;
+  }  
+
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    background-color: blue;
+  }
+}

@@ -1,0 +1,27 @@
+
+.container{
+  width: 800px;
+  background-color: grey;
+} 
+
+img{
+  width: 100%;
+}
+
+.padder{
+  padding: 10px;
+}
+
+h1{
+  margin: 0 0 15px 0;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+p{
+  margin-bottom: 10px;
+}
+  
