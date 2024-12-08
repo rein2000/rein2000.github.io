@@ -1,0 +1,14 @@
+/* 
+/*
+ * Vul hier je eigen styles in
+ */
+
+ .wrap{
+    max-width: 1200px;
+    margin: 0 auto;
+ }
+
+
+#modal-close-outside p{
+    color: blue;
+}

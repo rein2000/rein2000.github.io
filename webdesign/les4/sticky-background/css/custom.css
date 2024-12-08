@@ -1,0 +1,64 @@
+/* 
+/*
+ * Vul hier je eigen styles in
+ */
+
+ .wrap{
+    max-width: 1200px;
+    margin: 0 auto;
+ }
+
+ bodu,
+ html{
+    background: black;
+ }
+
+.sticky-bg,
+.hero,
+.text-section{
+    height: 100vh;
+}
+
+.hero,
+.text-section{
+    background: black;
+}
+
+.hero .uk-grid,
+.text-section .uk-grid{
+    height: 100vh;
+}
+
+.sticky-bg{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.sticky-bg-1{
+    background-image: url(../img/clemens/1webhof.jpg);
+}
+
+.sticky-bg-2{
+    background-image: url(../img/clemens/fav-hell.jpg);
+}
+
+.sticky-bg-3{
+    background-image: url(../img/clemens/IMG_3362.jpg);
+}
+
+.sticky-bg-4{
+    background-image: url(../img/clemens/IMG_0277.jpg);
+}
+
+.sticky-bg-5{
+    background-image: url(../img/clemens/P1290531.jpg);
+}
+
+.hero p,
+.hero h1,
+.text-section p,
+.text-section h1{
+    color: white;
+}
