@@ -8,7 +8,39 @@
     margin: 0 auto;
  }
 
-
 #modal-close-outside p{
     color: blue;
+}
+
+body,
+html{
+    margin: 0;
+    padding: 0;
+}
+
+header.hero{
+    height: 100vh;
+    background-color: #C13C3C;
+}
+
+.hero img{
+    width: 720px;
+    position: absolute;
+    bottom: 120px;
+    right: 120px;
+
+    /* Magic! */
+    filter: grayscale(1);
+    mix-blend-mode: multiply;
+}
+
+.hero h1{
+    margin: 0;
+    font-size: 64px;
+    color: white;
+    position: absolute;
+    bottom: 150px;
+    left: 120px;
+    font-weight: 700;
+    width: 640px;
 }
